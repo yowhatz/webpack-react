@@ -3,8 +3,6 @@ import { useState } from "react";
 import Image from "../assets/test_.png";
 
 const App = () => {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <h1 className={cls.center}>
