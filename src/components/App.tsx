@@ -8,7 +8,7 @@ const App = () => {
       <h1 className={cls.center}>
         Привет! Спасибо что скачали мою сборку Webpack-а^^
       </h1>
-      <img src={Image} alt="менеджер фалов VSCode" />
+      <img src={Image} alt="менеджер файлов VSCode" />
     </>
   );
 };
