@@ -1,6 +1,6 @@
 import cls from "./App.module.scss";
 import { useState } from "react";
-import Image from "../assets/P8och.png";
+import Image from "../assets/test_.png";
 
 const App = () => {
   const [count, setCount] = useState(0);
