@@ -1,7 +1,7 @@
 import { Configuration } from "webpack";
 import { BuildOptions } from "./types/types";
 
-export function buildResolvers(
+export function webpackResolvers(
   options: BuildOptions,
 ): Configuration["resolve"] {
   return {

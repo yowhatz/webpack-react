@@ -8,7 +8,7 @@ import CopyPlugin from "copy-webpack-plugin";
 import path from "path";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 
-export function buildPlugins({
+export function webpackPlugins({
   mode,
   paths,
 }: BuildOptions): Configuration["plugins"] {

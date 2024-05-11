@@ -3,7 +3,7 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import { BuildOptions } from "./types/types";
 import ReactRefreshTypeScript from "react-refresh-typescript";
 
-export function buildLoaders({ mode }: BuildOptions): ModuleOptions["rules"] {
+export function webpackLoaders({ mode }: BuildOptions): ModuleOptions["rules"] {
   const isProd = mode === "production";
   const isDev = mode === "development";
 
